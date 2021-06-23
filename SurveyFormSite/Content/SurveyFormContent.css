@@ -1,12 +1,10 @@
 ﻿body {
-
+    background-color:yellow;
 }
     h1 {
     font-family: Verdana;
+    text-align: center;
 }
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-    }
-
     #p1 {
     font-family: Verdana;
 }
@@ -24,4 +22,8 @@
 }
     #p6 {
     color: crimson;
+    font-family: Verdana;
+}
+    div {
+    background-color:antiquewhite;
 }
