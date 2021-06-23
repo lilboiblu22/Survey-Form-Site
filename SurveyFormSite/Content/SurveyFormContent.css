@@ -1,8 +1,9 @@
 ﻿body {
-
+    background-color:yellow;
 }
     h1 {
     font-family: Verdana;
+    text-align: center;
 }
     #p1 {
     font-family: Verdana;
@@ -20,6 +21,7 @@
     font-family: Verdana;
 }
     #p6 {
+    color: crimson;
     font-family: Verdana;
 }
     li {
