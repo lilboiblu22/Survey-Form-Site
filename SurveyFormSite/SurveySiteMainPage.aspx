@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sign Up Page</title>
+    <title> Sign Up Page</title>
 </head>
     <link rel="stylesheet" href="Content/SurveyFormContent.css"> 
 <body>
@@ -109,7 +109,7 @@
     <div class="form-group">
       <p id="p5">
         What would you like to see improved?
-        <span class="clue">(Check all that apply)</span>
+        <span class="clue" accesskey="p5">(Check all that apply)</span>
       </p>
 
       <label
