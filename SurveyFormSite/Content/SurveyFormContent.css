@@ -1,29 +1,27 @@
 ﻿body {
+
 }
     h1 {
+    font-family: Verdana;
+}
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
 
     #p1 {
-    color: crimson;
+    font-family: Verdana;
 }
-
     #p2 {
-    color: crimson;
+    font-family: Verdana;
 }
-
     #p3 {
-    color: crimson;
+    font-family: Verdana;
 }
-
     #p4 {
-    color: crimson;
+    font-family: Verdana;
 }
-
     #p5 {
-    color: crimson;
+    font-family: Verdana;
 }
-
     #p6 {
     color: crimson;
 }
