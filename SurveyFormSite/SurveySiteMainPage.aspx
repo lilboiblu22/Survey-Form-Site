@@ -3,9 +3,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Sign Up Page</title>
+    <title> Sign Up Page</title>
 </head>
-    <link rel="stylesheet" href=""> 
+    <link rel="stylesheet" href="Content/SurveyFormContent.css"> 
 <body>
     <div class="container">
   <header class="header">
@@ -52,7 +52,7 @@
       />
     </div>
     <div class="form-group">
-      <p>Which option best describes your current role?</p>
+      <p id="p2">Which option best describes your current role?</p>
       <select id="dropdown" name="role" class="form-control" required>
         <option disabled selected value>Select current role</option>
         <option value="student">Student</option>
@@ -64,7 +64,7 @@
     </div>
 
     <div class="form-group">
-      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <p id="p3">Would you recommend freeCodeCamp to a friend?</p>
       <label>
         <input
           name="user-recommend"
@@ -94,7 +94,7 @@
     </div>
 
     <div class="form-group">
-      <p>
+      <p id="p4">
         What is your favorite feature of freeCodeCamp?
       </p>
       <select id="most-like" name="mostLike" class="form-control" required>
@@ -107,9 +107,9 @@
     </div>
 
     <div class="form-group">
-      <p>
+      <p id="p5">
         What would you like to see improved?
-        <span class="clue">(Check all that apply)</span>
+        <span class="clue" accesskey="p5">(Check all that apply)</span>
       </p>
 
       <label
@@ -203,7 +203,7 @@
     </div>
 
     <div class="form-group">
-      <p>Any comments or suggestions?</p>
+      <p id="p6">Any comments or suggestions?</p>
       <textarea
         id="comments"
         class="input-textarea"
@@ -214,8 +214,7 @@
 
     <div class="form-group">
       <button type="submit" id="submit" class="submit-button">
-        Submit
-      </button>
+        Submit</button>
     </div>
   </form>
 </div>
