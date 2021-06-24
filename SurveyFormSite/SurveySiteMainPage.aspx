@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="SurveySiteMainPage.aspx.vb" Inherits="SurveyFormSite.WebForm1" %>
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html >
 <head runat="server">
     <title> Sign Up Page</title>
 </head>
@@ -9,9 +9,9 @@
 <body>
     <div class="container">
   <header class="header">
-    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+    <h1 id="title" class="text-center">Staples Customer Survey Form</h1>
     <p id="p1" class="description text-center">
-      Thank you for taking the time to help us improve the platform
+      Thank you for taking the time to help us improve our website and service to you!
     </p>
   </header>
   <form id="survey-form">
@@ -52,19 +52,19 @@
       />
     </div>
     <div class="form-group">
-      <p id="p2">Which option best describes your current role?</p>
+      <p id="p2">How was your last check out experience?</p>
       <select id="dropdown" name="role" class="form-control" required>
-        <option disabled selected value>Select current role</option>
-        <option value="student">Student</option>
-        <option value="job">Full Time Job</option>
-        <option value="learner">Full Time Learner</option>
-        <option value="preferNo">Prefer not to say</option>
+        <option disabled selected value>Rate your experience</option>
+        <option value="amazing">Amazing and Fast</option>
+        <option value="Great">Great!</option>
+        <option value="fine">Just fine</option>
+        <option value="Notprefered">Site was buggy</option>
         <option value="other">Other</option>
       </select>
     </div>
 
     <div class="form-group">
-      <p id="p3">Would you recommend freeCodeCamp to a friend?</p>
+      <p id="p3">Would you recommend Staples to your colleagues?</p>
       <label>
         <input
           name="user-recommend"
@@ -95,14 +95,14 @@
 
     <div class="form-group">
       <p id="p4">
-        What is your favorite feature of freeCodeCamp?
+        What is your favorite feature of the Staples Connect Website?
       </p>
       <select id="most-like" name="mostLike" class="form-control" required>
         <option disabled selected value>Select an option</option>
-        <option value="challenges">Challenges</option>
-        <option value="projects">Projects</option>
-        <option value="community">Community</option>
-        <option value="openSource">Open Source</option>
+        <option value="builder">The Solution Builder Tool</option>
+        <option value="projects">Live Chat feature!</option>
+        <option value="Ad">The Online Store</option>
+        <option value="Customer Support">Customer Support</option>
       </select>
     </div>
 
@@ -115,50 +115,51 @@
       <label
         ><input
           name="prefer"
-          value="front-end-projects"
+          value="Solution Builder"
           type="checkbox"
           class="input-checkbox"
-        />Front-end Projects</label
+        />The Solution Builder Tool</label
       ><br />
       <label>
         <input
           name="prefer"
-          value="back-end-projects"
+          value="Inventory Availability"
           type="checkbox"
           class="input-checkbox"
-        />Back-end Projects</label
+        />Inventory Availability</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="data-visualization"
+          value="Chat Feature"
           type="checkbox"
           class="input-checkbox"
-        />Data Visualization</label
+        />Chat Feature</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="challenges"
+          value="Order Tracking"
           type="checkbox"
           class="input-checkbox"
-        />Challenges</label
+        />Order Tracking</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="open-source-community"
+          value="small business services"
           type="checkbox"
           class="input-checkbox"
-        />Open Source Community</label
+        />Small Business Services
+      </label
       ><br />
       <label
         ><input
           name="prefer"
-          value="gitter-help-rooms"
+          value="Printer Education"
           type="checkbox"
           class="input-checkbox"
-        />Gitter help rooms</label
+        />Printer Education</label
       ><br />
       <label
         ><input
@@ -171,34 +172,34 @@
       <label
         ><input
           name="prefer"
-          value="city-meetups"
+          value="Tech Support"
           type="checkbox"
           class="input-checkbox"
-        />City Meetups</label
+        />Tech Support</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="wiki"
+          value="Price Matching"
           type="checkbox"
           class="input-checkbox"
-        />Wiki</label
+        />Price Matching</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="forum"
+          value="In Store Pick up"
           type="checkbox"
           class="input-checkbox"
-        />Forum</label
+        />In-Store Pick up</label
       ><br />
       <label
         ><input
           name="prefer"
-          value="additional-courses"
+          value="other"
           type="checkbox"
           class="input-checkbox"
-        />Additional Courses</label
+        />Site Format</label
       >
     </div>
 
@@ -218,6 +219,6 @@
     </div>
   </form>
 </div>
-    </form>
+    
 </body>
 </html>
